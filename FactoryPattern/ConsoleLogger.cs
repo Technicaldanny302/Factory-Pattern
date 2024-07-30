@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    internal class ConsoleLogger
+    public class ConsoleLogger
     {
+        public static void VehicleStartUpDialouge()
+        {
+            Console.WriteLine("Put key in ignition");
+            Thread.Sleep(1000);
+            Console.WriteLine("Constructing build kit");
+            Thread.Sleep(1000);
+        }
     }
 }

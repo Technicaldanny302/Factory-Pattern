@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    internal class IVehicle
+    public interface IVehicle
     {
+        public void Drive();
     }
 }
